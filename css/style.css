@@ -92,9 +92,9 @@ body {
 }
 
 .block-header-profile button {
-    color: #000000;
+    color: #ffffff;
     background-image: none;
-    background-color: rgb(194, 194, 194);
+    background-color: #0af;
     height: 28px;
     line-height: 28px;
     border-radius: 4px;
