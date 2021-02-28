@@ -80,11 +80,13 @@
                     </div>
 
                     <h2 class="title-form">Регистрация</h2>
-                    <form action="registration.html" method="GET"> 
-                        <p> <input class="login" type="text" maxlength="60" placeholder="Введите Ваш логин"> </p>
-                        <p> <input class="password" type="password" maxlength="24" placeholder="Введите Ваш пароль"> </p>
-                        <p> <input class="repassword" type="password" maxlength="24" placeholder="Повторите пароль"> </p>
-                        <p> <input class="submit-registration" type="submit" value="Зарегистрировать"> </p>
+                    <form class="registration-form" action="registration.html" method="GET"> 
+                        
+                        <input name="login" type="text" maxlength="60" placeholder="Введите Ваш логин">
+                        <input name="password" type="password" maxlength="24" placeholder="Введите Ваш пароль">
+                        <input name="repassword" ymaxlength="24" placeholder="Повторите пароль">
+                        <button type="submit" >Зарегистрировать</button>
+                        
                     </form>
 
                 </main>
