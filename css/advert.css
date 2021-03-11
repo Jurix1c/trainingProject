@@ -26,6 +26,26 @@
 
 .card-preview {}
 
+
+.card-buttons div{
+    margin: 5px 5px 5px 150px;
+    padding: 5px;
+}
+
+.card-buttons button{
+    font-size: 18px;
+    width: 150px;
+}
+
+.button-delete{
+    background-color: rgb(199, 178, 82)
+}
+
+.button-delete:hover{
+    background-color: rgb(221, 66, 66);
+}
+
+
 .category {
     font-size: 13px;
 }
