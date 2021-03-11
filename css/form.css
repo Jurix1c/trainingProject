@@ -15,11 +15,57 @@ margin: 20px 10x 0px 45px;
     margin: 5px 0px 0px 45px;
 }
 
+.registration div{
+    display: flex;
+}
+
+.registration{
+    background: chartreuse;
+    border-color: chocolate;
+}
+
+.adv-form {
+    font-size: 21px;
+    line-height: 28px;
+    width: 350px;
+    height: 400px;
+    padding: 10px;
+    margin: 5px 0px 0px 45px;
+}
+
+.adv-change-text{
+    display: flex;
+    justify-content: space-between;
+}
+
+.adv-select{
+    display: block;
+    font-size: 14px;
+    background: royalblue;
+    border: salmon;
+    border-width: 1px;
+    border-style: solid;
+    width: 50%;
+
+}
+
+
+
+.adv-form input{
+    width: 350px;
+    height: 10px;
+    padding: 10px;
+    margin: 5px 0px 0px 0px;
+}
+
+
 .registration-form input{
     width: 350px;
     height: 10px;
     padding: 10px;
-    margin: 5px 0px 0px 45px;
+    margin: 5px 0px 0px 0px;
+    background: cornflowerblue;
+    border-color: darkgoldenrod;
 }
 
 .registration-form button{
@@ -32,7 +78,7 @@ margin: 20px 10x 0px 45px;
  height: 10px;
  padding: 10px;
  margin: 5px 0px 0px 45px;
-
+}
 
 .password { 
     width: 350px;
@@ -47,6 +93,8 @@ margin: 20px 10x 0px 45px;
     padding: 10px;
     margin: 5px 0px 0px 45px;
    }
+
+   
 
 .button-registration {
     padding: 5px;  

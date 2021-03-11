@@ -30,6 +30,11 @@
     font-size: 13px;
 }
 
+.card-buttons button{
+    display: block;
+    
+}
+
 .category li a {
     text-decoration: none;
     display: block;
