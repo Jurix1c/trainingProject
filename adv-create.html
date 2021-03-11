@@ -80,10 +80,11 @@
                     </div>
 
                     <h2 class="title-form">Добавить объявление</h2>
-                    <form class="adv-form" action="/add" method="POST"> 
+                    <form class="adv-form " action="/add" method="POST"> 
                         <div class="adv">
                             <input name="title" type="text" maxlength="64" placeholder="Заголовок Вашего объявления">
-                            <div>Выберите категорию
+                        <div class="adv-change-text">
+                            <div class="adv-select">Выберите категорию
                             </div>
                             <div class="adv-select">
                             <select size="1" multiple name="category[]">
@@ -93,6 +94,7 @@
                                 <option value="9">Работа</option>
                             </select>
                             </div>
+                        </div>
                             <div>
                                 <input type="file" name="adv-picture">
                             </div>
