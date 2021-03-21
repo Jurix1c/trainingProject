@@ -26,7 +26,7 @@ class AdvertList{
             let advTemplate = advert.getTemplate();   
             advert.setEvent();
             //console.log(advert);
-            console.log(advert.template);
+            //console.log(advert.template);
             //this.elementId.insertAdjacentHTML('beforeEnd', advert.template);
             this.elementId.appendChild(advert.template);
         }

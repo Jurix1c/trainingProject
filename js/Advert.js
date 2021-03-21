@@ -4,6 +4,7 @@ class Advert{
     constructor(name){
 
         this.name = name;
+        this.deleteAdvert = this.deleteAdvert.bind(this);
         let template = this.getTemplate(name);
         //console.log(template);
        // return this.setEvent(template);
@@ -44,17 +45,21 @@ class Advert{
 
     }
 
-    deleteAdvert(obj){
+    deleteAdvert(){
         
-        console.log(obj);
         
+        console.log(this.template);
+        debugger;
+        this.template.remove();
+        console.log(delete this.template);
+        console.log(this.template);
     }
 
     setEvent(){
         //console.log(obj);
         //let btDelete = this.template.getElementsByClassName("button-delete")[0];
         let btDelete = this.template.querySelector(".button-delete");
-        btDelete.addEventListener("click", this.deleteAdvert(this));
+        btDelete.addEventListener("click", this.deleteAdvert);
 
         //console.log('setEvent');
     }
